@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Hermes</title>
+<style>
+:root{color-scheme:dark}
+body{margin:0;background:#0b0d10;color:#e6e8eb;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:64px 24px}
+h1{font-size:32px;margin:0 0 6px;letter-spacing:-.02em}
+.tag{color:#8b93a1;margin:0 0 36px}
+h2{font-size:18px;margin:32px 0 8px}
+a{color:#7cb7ff}
+ul{padding-left:20px}
+li{margin:6px 0}
+code{background:#161a20;padding:2px 6px;border-radius:4px;font-size:14px}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid #23272e;color:#8b93a1;font-size:14px}
+</style></head><body><main>
+<h1>Privacy Policy</h1>
+<p class="tag">Hermes — personal automation client · Effective November 12, 2026</p>
+
+<p>This policy explains how <strong>Hermes</strong> ("the app"), a single-user private desktop
+client operated by its owner, handles data obtained through Google APIs.</p>
+
+<h2>1. Who this applies to</h2>
+<p>The app has exactly one authorised user: the account owner who completed the OAuth consent
+flow. There are no other users, accounts, or customers. The app is not a hosted or multi-tenant
+service.</p>
+
+<h2>2. What data the app accesses</h2>
+<p>Only after the owner grants consent, and only for the owner's own account, the app may access:</p>
+<ul>
+<li><strong>Gmail</strong> — read message metadata and bodies, and send or draft mail when the owner asks</li>
+<li><strong>Google Calendar</strong> — read and create or delete events on the owner's calendars</li>
+<li><strong>Google Drive</strong> — read, create, update, share or trash the owner's own files</li>
+<li><strong>Google Docs</strong> — read the contents of the owner's documents and append text when asked</li>
+<li><strong>Google Sheets</strong> — read and write cells in the owner's spreadsheets</li>
+<li><strong>Google Contacts</strong> — read the owner's contact names, emails and phone numbers</li>
+</ul>
+<p>These correspond to the OAuth scopes requested at consent time. The app makes no attempt to
+access data belonging to anyone other than the owner.</p>
+
+<h2>3. How data is stored and retained</h2>
+<ul>
+<li>OAuth credentials (access and refresh tokens) are stored in a local file on the owner's own
+computer, at <code>~/.hermes/google_token.json</code>, readable only by that machine's user.</li>
+<li>Retrieved content is processed in memory on the owner's device. Some results may be cached in
+local files on that device to support the owner's workflow.</li>
+<li>No Google user data is uploaded to any server operated by the app, because the app operates no
+servers. Nothing is retained beyond what is written to the owner's local disk.</li>
+</ul>
+
+<h2>4. Sharing and disclosure</h2>
+<p>The app does <strong>not</strong> sell, rent, trade, or share Google user data with third
+parties. It does not use Google user data for advertising, profiling, or model training. Data
+leaves the owner's device only when the owner explicitly instructs an action (for example, sending
+an email) or when a request is made to Google's own APIs to fulfil that action.</p>
+
+<h2>5. Google API Services User Data Policy</h2>
+<p>The app's use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements. Data is used only to provide the
+features the owner requested.</p>
+
+<h2>6. Revoking access and deleting data</h2>
+<ul>
+<li>Revoke the app's access at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+<li>Delete local credentials by removing <code>~/.hermes/google_token.json</code> on the owner's
+machine.</li>
+<li>Any cached local files can be deleted by the owner at any time; they are ordinary files on the
+owner's disk.</li>
+</ul>
+
+<h2>7. Security</h2>
+<p>Credentials are stored locally and transmitted only to Google's OAuth and API endpoints over
+HTTPS. The app requests the minimum scope set needed for the features the owner uses and does not
+store credentials in any remote location.</p>
+
+<h2>8. Children</h2>
+<p>The app is a personal tool for its owner and is not directed at children under 13.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes, the revised version will be published at this URL with a new effective
+date.</p>
+
+<h2>10. Contact</h2>
+<p>Questions about this policy: <a href="mailto:giaphat060206@gmail.com">giaphat060206@gmail.com</a></p>
+<footer><a href="./index.html">← Back to Hermes</a></footer>
+</main></body></html>
